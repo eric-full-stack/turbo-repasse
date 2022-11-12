@@ -241,7 +241,7 @@ export function Pricing() {
                   : '[clip-path:inset(0_0_0_calc(50%-1px))]'
               )}
             >
-              {['Mensal', 'Annually'].map((period) => (
+              {['Mensal', 'Anual'].map((period) => (
                 <div
                   key={period}
                   className={clsx(

@@ -18,6 +18,7 @@ import logoTechcrunch from '@/images/logos/techcrunch.svg'
 import logoWired from '@/images/logos/wired.svg'
 import { TextField } from './Fields'
 import EmailForm from './EmailForm'
+import SocialLinks from './SocialLinks'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -307,6 +308,9 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <EmailForm />
+            </div>
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
+              <SocialLinks />
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
