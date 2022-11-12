@@ -197,7 +197,8 @@ export function SecondaryFeatures() {
             Vantagens do Turbo Repasse
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Garantimos carros até 50% abaixo da FIPE, com garantia e segurança!
+            Carros com até 50% de desconto abaixo da FIPE, com garantia e
+            segurança!
           </p>
         </div>
         <ul
