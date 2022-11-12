@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html className="h-full bg-gray-50 antialiased" lang="en">
       <Head>
+        <meta name="robots" content="all" />
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6F6Y7FQRKD"
